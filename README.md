@@ -1,11 +1,5 @@
-Comunidad Rean Web page based on [Twitter Bootstrap](http://twitter.github.com/bootstrap)
+[Comunidad Rean Dev-Team](https://github.com/ComunidadRean)
 =================
-
-Bootstrap provides simple and flexible HTML, CSS, and Javascript for popular user interface components and interactions. In other words, it's a front-end toolkit for faster, more beautiful web development. It's created and maintained by [Mark Otto](http://twitter.com/mdo) and [Jacob Thornton](http://twitter.com/fat) at Twitter.
-
-
-Comunidad Rean Dev-Team
------------------------
 
 We are a group of responsible people with desires of moving forward and keep contact with some of the best programmers of the community. We are from very different countries, keen on programming and we spend our free time learning about it and developing our TrinityCore fork, ReanEmu.
 
@@ -14,7 +8,6 @@ Copyright and license
 
 Copyright 2012 Designed by [Hispano](https://github.com/Hispano)
 
-Copyright 2012 Twitter, Inc.
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this work except in compliance with the License.
