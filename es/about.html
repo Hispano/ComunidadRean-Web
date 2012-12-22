@@ -5,75 +5,78 @@
     <title>Comunidad Rean</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="author" content="Hispano">
 
     <!-- Le styles -->
     <link href="../assets/css/bootstrap.css" rel="stylesheet">
     <style type="text/css">
       body {
-        padding-top: 60px;
+        padding-top: 20px;
         padding-bottom: 40px;
       }
+
+      /* Custom container */
+      .container-narrow {
+        margin: 0 auto;
+        max-width: 700px;
+      }
+      .container-narrow > hr {
+        margin: 30px 0;
+      }
+
     </style>
     <link href="../assets/css/bootstrap-responsive.css" rel="stylesheet">
 
-    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
-    <!-- Le fav and touch icons -->
-    <link rel="shortcut icon" href="../assets/ico/favicon.ico">
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
+    <!-- Fav and touch icons -->
+    <link rel="shortcut icon" href="../assets/img/favicon.png">
   </head>
 
   <body>
 
-    <div class="navbar navbar-fixed-top">
-      <div class="navbar-inner">
-        <div class="container">
-          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </a>
-          <a class="brand" href="../es/">Comunidad Rean</a>
-          <div class="nav-collapse">
-            <ul class="nav">
-              <li class="divider-vertical"></li>
-              <li><a href="../es/">Inicio</a></li>
-              <li class="active"><a href="../es/about.html">Sobre nosotros</a></li>
-              <li><a href="../forum">Foro</a></li>
-              <li class="divider-vertical"></li>
-              <li class="dropdown" id="language">
-                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Espa&ntilde;ol <b class="caret"></b></a>
-                <ul class="dropdown-menu">
-                  <li><a href="../">English</a></li>
-                </ul>
-            </ul>
-          </div><!--/.nav-collapse -->
-        </div>
+    <div class="container-narrow">
+
+      <div class="masthead">
+        <ul class="nav nav-pills pull-right">
+          <li><a href="../es/">Inicio</a></li>
+          <li class="active"><a href="../es/about.html">Sobre nosotros</a></li>
+          <li><a href="../forum">Foro</a></li>
+          <li class="dropdown" id="language">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#">Español <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="../about.html">English</a></li>
+              </ul>
+          </li>
+          <li><a href="https://github.com/ComunidadRean"><img class="small-bs-icon" src="../assets/img/icon-github.png"></a></li>
+          <li><a href="http://twitter.com/#!/ReanEmu"><img class="small-bs-icon" src="../assets/img/icon-twitter.png"></a></li>
+        </ul>
+        <h3 class="muted">Comunidad Rean</h3>
       </div>
-    </div>
 
-    <div class="container">
-    <h1>El proyecto ReanEmu</h1>
-    <hr>
-    <p class="lead"><a href="https://github.com/ComunidadRean">ReanEmu</a> es un marco de trabajo de MMORPG usado para emular un servidor de World of Warcraft en la versión 3.3.5a, está construido usando C++, y usando un back-end de MySQL para el contenido de la base de datos. ReanEmu es un fork privado de <a href="https://github.com/TrinityCore/TrinityCore">TrinityCore</a> y ha sido creado uniendo varios repos famosos y nuestro propio código con el propósito de conseguir un emulador completo manteniendo en mente nuestros objetivos principales: <strong>usabilidad</strong>, <strong>estabilidad</strong> y <strong>jugabilidad</strong>. Hemos diseñado nuestra propia metodología y flujo de trabajo, basado en git-flow, que nos permite mantener nuestro código actualizado con las últimas actualizaciones y mejoras de TrinityCore así como una manera efectiva de manejar nuestro proceso de <em>releases</em> y desarrollo del día a día.</p>
-    <img src="../assets/img/ReanEmu_Workflow.png">
-    <h1>Equipo de desarrollo Comunidad Rean</h1>
-    <hr>
-    <p class="lead">Somos un grupo de personas responsables con deseos de avanzar hacia adelante y mantener contacto con algunos de los mejores programadores de la comunidad. Somos de diferentes países, aficionados a la programación y en nuestro tiempo libre aprendemos sobre ello y desarrollando ReanEmu.</p>
+      <hr>
 
-    <div class="tabbable tabs-left">
+      <div class="container-narrow">
+        <h1>El proyecto ReanEmu</h1>
+        <p class="lead"><a href="https://github.com/ComunidadRean">ReanEmu</a> es un marco de trabajo de MMORPG usado para emular un servidor de World of Warcraft en la versión 3.3.5a, está construido usando C++, y usando un back-end de MySQL para el contenido de la base de datos. ReanEmu es un fork privado de <a href="https://github.com/TrinityCore/TrinityCore">TrinityCore</a> y ha sido creado uniendo varios repos famosos y nuestro propio código con el propósito de conseguir un emulador completo manteniendo en mente nuestros objetivos principales: <strong>usabilidad</strong>, <strong>estabilidad</strong> y <strong>jugabilidad</strong>.</p> 
+        <p class="lead">Hemos diseñado nuestra propia metodología y flujo de trabajo, basado en git-flow, que nos permite mantener nuestro código actualizado con las últimas actualizaciones y mejoras de TrinityCore así como una manera efectiva de manejar nuestro proceso de <em>releases</em> y desarrollo del día a día.</p>
+        <img src="../assets/img/ReanEmu_Workflow.png">
+
+        <hr>
+
+        <h1>Comunidad Rean Dev-Team</h1>
+        <p class="lead">Somos un grupo de personas responsables aficionadas a la programación, con deseos de avanzar hacia adelante y mantener contacto con algunos de los mejores programadores de la comunidad. Somos de diferentes países pero compartimos nuestra pasión de desarrollar ReanEmu.</p>
+      </div>
+
+	<div class="tabbable tabs-left">
         <ul class="nav nav-tabs">
           <li class="active"><a href="#WoW-Rean" data-toggle="tab"><img src="../assets/img/spain.gif" height="28" width="28"> WoW-Rean</a></li>
           <li><a href="#Lumen-WoW" data-toggle="tab"><img src="../assets/img/germany.gif" height="28" width="28"> Lumen-WoW</a></li>
           <li><a href="#Get-Play" data-toggle="tab"><img src="../assets/img/uzbekistan.gif" height="15" width="25"> Get-Play</a></li>
-          <li><a href="#Other-members" data-toggle="tab"> Otros miembros</a></li>
+          <li><a href="#Other-members" data-toggle="tab"> Other members</a></li>
         </ul>
         <div class="tab-content">
             <div class="tab-pane active" id="WoW-Rean">
@@ -102,13 +105,14 @@
                 <p><a href="https://github.com/Zevran">Zevran</a></p>
            </div>
         </div>
-    </div>
+      </div>
 
       <hr>
 
-      <footer>
-        <p>&copy; <a href="https://github.com/Hispano">Hispano</a> 2012</p>
-      </footer>
+      <div class="footer">
+        <p><i class="icon-envelope"></i><a href="mailto:hispano@comunidadrean.com"> Contacta</a></p>
+        <p>&copy; <a href="https://github.com/Hispano">Hispano</a> 2013. Powered by Twitter's Bootstrap. </a></p>
+      </div>
 
     </div> <!-- /container -->
 
@@ -116,18 +120,7 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="../assets/js/jquery.js"></script>
-    <script src="../assets/js/bootstrap-transition.js"></script>
-    <script src="../assets/js/bootstrap-alert.js"></script>
-    <script src="../assets/js/bootstrap-modal.js"></script>
-    <script src="../assets/js/bootstrap-dropdown.js"></script>
-    <script src="../assets/js/bootstrap-scrollspy.js"></script>
-    <script src="../assets/js/bootstrap-tab.js"></script>
-    <script src="../assets/js/bootstrap-tooltip.js"></script>
-    <script src="../assets/js/bootstrap-popover.js"></script>
-    <script src="../assets/js/bootstrap-button.js"></script>
-    <script src="../assets/js/bootstrap-collapse.js"></script>
-    <script src="../assets/js/bootstrap-carousel.js"></script>
-    <script src="../assets/js/bootstrap-typeahead.js"></script>
+    <script src="../assets/js/bootstrap.js"></script>
 
   </body>
 </html>
